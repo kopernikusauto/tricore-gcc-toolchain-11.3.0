@@ -146,7 +146,7 @@ if [[ $* == *--gcc-stage1* || $* == *--all* ]]; then
 	--enable-lib32 \
 	--disable-lib64 \
 	--prefix=$INSTALL_FOLDER \
-	--enable-languages=c,c++ \
+	--enable-languages=c,c++,ada \
 	--enable-libstdcxx-debug-flags='-gdwarf-3 -g -O0 -D_GLIBCXX_ASSERTIONS' \
 	--enable-c99 \
 	--enable-long-long \
@@ -243,7 +243,7 @@ if [[ $* == *--gcc-stage2* || $* == *--all* ]]; then
 	--enable-lib32 \
 	--disable-lib64 \
 	--prefix=$INSTALL_FOLDER \
-	--enable-languages=c,c++ \
+	--enable-languages=c,c++,ada \
 	--enable-libstdcxx-debug-flags='-gdwarf-3 -g -O0 -D_GLIBCXX_ASSERTIONS' \
 	--enable-c99 \
 	--enable-long-long \

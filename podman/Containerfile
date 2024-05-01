@@ -1,0 +1,8 @@
+FROM ubuntu:20.04
+
+
+RUN apt update && apt upgrade -y
+
+RUN apt install -y build-essential gnat libmpc-dev libisl-dev libgmp-dev automake file texinfo
+
+CMD echo "Howdy"
